@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Spacegray.base16-eighties.dark">
+  <!--
+  GitHub: https://github.com/josephspurrier/liteide-material
+  Modeled after: https://github.com/equinusocio/material-theme
+  Color Help: https://github.com/visualfc/liteide/blob/master/liteidex/deploy/liteeditor/color/colorhelp.md
+  -->
+
+  <!-- Text color and background -->
+  <style name="Text" foreground="#D3D0BC" background="#2d2d2d"/>
+  <!-- Line numbering and background -->
+  <style name="Extra" foreground="#807F7B" background="#2d2d2d"/>
+  <!-- Text highlighting -->
+  <style name="Selection" background="#d3d0c8"/>
+   <!-- Current line where the cursor is -->
+  <style name="CurrentLine" background="#3b3b39"/>
+   <!-- 80 pixel margins -->
+  <style name="IndentLine" foreground="#80CBC4"/>
+   <!-- Space after code -->
+  <style name="VisualWhitespace" foreground="#263238"/>
+   <!-- Keywords: package, import, func, return, if, type, interface -->
+   <!-- Also controls the command at the top of the Build Output window -->
+  <style name="Keyword" foreground="#CC99C5" bold="false"/>
+   <!-- Keywords: string, error, int, bool, rune, byte-->
+  <style name="DataType" foreground="#CC99C5" bold="false" />
+   <!-- Numbers: 1, 1.2, 2.0-->
+  <style name="Decimal" foreground="#F9924A" bold="false"/>
+   <!-- NO IDEA -->
+  <style name="BaseN" foreground="yellow" bold="false"/>
+   <!-- NO IDEA -->
+  <style name="Float" foreground="yellow" bold="false"/>
+   <!-- Text: 'c' -->
+  <style name="Char" foreground="#C3E88D"/>
+   <!-- Text: "word" -->
+  <style name="String" foreground="#91CC93"/>
+   <!-- Text: // This is a comment -->
+  <style name="Comment" foreground="#747369" italic="false"/>
+   <!-- Yellow line for warnings, left side of IDE-->
+  <style name="Alert" foreground="yellow"/>
+   <!-- Error message at the bottom of the Build Output window -->
+  <style name="Error" foreground="#F77669"/>
+   <!-- Function Name: fmt.Println() -->
+  <style name="Function" foreground="#67CCCD"/>
+   <!-- Marks like: ( ) { } = , := += . * & -->
+  <style name="RegionMarker" foreground="#d3d0c8"/>
+   <!-- NO IDEA -->
+  <style name="Symbol" foreground="red" bold="true"/>
+   <!-- Functions: make(), len()-->
+  <style name="BuiltinFunc" foreground="#67CCCD" bold="false"/>
+   <!-- Variables: true, false, nil -->
+  <style name="Predeclared" foreground="#F99239" bold="false"/>
+   <!-- Functions like: main and any other function name -->
+  <style name="FuncDecl" foreground="#6091C7"/>
+   <!-- NO IDEA -->
+  <style name="Placeholder" foreground="yellow"/>
+   <!-- Declaration: // TODO -->
+  <style name="ToDo" foreground="#ffcb6b" background="#263238" bold="true"/>
+</style-scheme>
